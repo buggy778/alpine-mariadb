@@ -11,7 +11,6 @@ ADD run.sh /run.sh
 RUN chmod 775 *.sh
 
 ADD my.cnf /etc/mysql/my.cnf
-ADD mysqld_charset.cnf /etc/my.cnf.d/
 
 # Add VOLUMEs to allow backup of config and databases
 VOLUME  ["/etc/mysql", "/var/lib/mysql"]
