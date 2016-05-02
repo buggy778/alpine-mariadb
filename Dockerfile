@@ -1,4 +1,4 @@
-FROM alpine:edge
+FROM alpine:latest
 MAINTAINER Josh Sandlin <josh@thenullbyte.org>
 
 RUN apk --update add \
